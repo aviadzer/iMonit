@@ -1,0 +1,206 @@
+/*--- Avanquest WebEasy Page Style ---*/
+
+
+.littleform              { /* Common */
+	font            : 6pt 'MS Sans Serif';
+	color           : #000000;
+	}
+.smallform               { /* Common */
+	font            : 6pt 'MS Sans Serif';
+	color           : #000000;
+	padding         :   1.50pt;
+	}
+.footer               { /* Common */
+	font            : /*italic*/bold 12pt 'Times New Roman', Book, Georgia, serif;
+	color           : #000000;
+	}
+
+.login_error               { /* Common */
+	font            : bold 10pt 'MS Sans Serif';
+	color           : #FF8C00;
+	padding         : 1.50pt;
+	}
+
+.usermng	{
+	font            : bold 10pt 'MS Sans Serif';
+	color           : #000000;
+}
+	
+#login_error	{
+	position        : absolute;
+	left            : 560.00pt;
+	top             :  35.25pt;
+}	
+	
+input#loginbutton           { 
+	position        : absolute;
+	left            : 414.00pt;
+	top             :  65.25pt;
+	width           :  50.25pt;
+	height          :  23.25pt;
+	}
+
+input#login_name            { /* Password password  */
+	position        : absolute;
+	left            : 462.00pt;
+	top             :  36.25pt;
+	width           :  75.75pt;
+	height          :   9.25pt;
+	}
+input#login_password            { /* Password password  */
+	position        : absolute;
+	left            : 462.00pt;
+	top             :  51.00pt;
+	width           :  75.75pt;
+	height          :   8.25pt;
+	}
+input#remember            { /* Check Box check_box oncl... */
+	position        : absolute;
+	left            : 466.50pt;
+	top             :  64.50pt;
+	height          :  13.50pt;
+	}
+
+	
+div#page            { /* Page Holder */
+	background-color: Gray;
+	position        : relative;
+	width           : 573.75pt;
+	height          : 573.75pt;
+	text-align      : left;
+	margin-left     : auto;
+	margin-right    : auto;
+	}
+body                { /* Page Body */
+	background-color: #181818  ;
+	text-align      : center;
+	}
+
+	/* Images setting */
+	
+/* Header with login form */
+span#upper-header            { /* header.png */
+	background      : transparent url(header.png) no-repeat top left;
+	position        : absolute;
+	left            :   0.00pt;
+	top             :   0.00pt;
+	width           : 573.75pt;
+	height          : 564.00pt;
+	}
+	
+	
+span#lower-header            { /* header.png */
+	background      : transparent url(header.png) no-repeat top left;
+	position        : absolute;
+	left            : 0.00pt;
+	top          	: 540.00pt;
+	width           : 573.75pt;
+	height          : 564.00pt;
+	}
+	
+/* Header with out login form */
+span#headerwithoutlogin            { /* headerwithoutlogin.png */
+	background      : transparent url(headerwithoutlogin.png) no-repeat top left;
+	position        : absolute;
+	left            :   0.00pt;
+	top             :   15.00pt;
+	width           : 573.75pt;
+	height          : 564.00pt;
+}	
+
+/* Header with out login form */
+span#logo            { /* headerwithoutlogin.png */
+	background      : transparent url(imonit.png) no-repeat top left;
+	position        : absolute;
+	left            :   0.00pt;
+	top             :   28.00pt;
+	width           : 573.75pt;
+	height          : 564.00pt;
+	}	
+	
+
+/* Body image - can be replaced by other image */
+span#bodyimage            { /* main2.png */
+	background      : transparent url(main2.png) no-repeat center;
+	position        : absolute;
+	left            : 10.00pt;
+	top             : 120.00pt;
+	width           : 550.00pt;
+	height          : 400.00pt;
+	}	
+
+span#joinus            { /* main2.png */
+	background      : transparent url(joinus.png) no-repeat center;
+	position        : absolute;
+	left            : 20.00pt;
+	top             : 120.00pt;
+	width           : 180.00pt;
+	height          : 180.00pt;
+}
+	
+div#usermng              { /* ContactUs */
+	position        : absolute;
+	left            : 430.00pt;
+	top             : 7.00pt;
+	width           : 130.50pt;
+	height          : 23.25pt;
+}
+
+/*** Main settings ***/
+div#centered             { /* Main page / Index */
+	position        : absolute;
+	left            : 160.00pt;
+	top             : 120.75pt;	
+	}
+
+/*** Footer settings ***/
+
+div#main             { /* Main page / Index */
+	position        : absolute;
+	left            : 60.00pt;
+	top             : 520.75pt;
+	width           :  57.75pt;
+	height          :  23.25pt;
+	}
+	
+div#overview              { /* OverView */
+	position        : absolute;
+	left            : 120.75pt;
+	top             : 520.75pt;
+	width           :  78.00pt;
+	height          :  23.25pt;
+	}
+div#register             { /* JoinUs/Register */
+	position        : absolute;
+	left            : 220.00pt;
+	top             : 520.75pt;
+	width           :  57.75pt;
+	height          :  23.25pt;
+	}
+div#login              { /* Login */
+	position        : absolute;
+	left            :  300.25pt;
+	top             : 520.75pt;
+	width           :  49.50pt;
+	height          :  23.25pt;
+	}
+div#settings              { /* Settings */
+	position        : absolute;
+	left            : 370.25pt;
+	top             : 520.75pt;
+	width           :  63.00pt;
+	height          :  23.25pt;
+	}
+div#contact              { /* ContactUs */
+	position        : absolute;
+	left            : 450.00pt;
+	top             : 520.75pt;
+	width           :  85.50pt;
+	height          :  23.25pt;
+	}
+/*** Footer settings ***/
+
+	
+
+
+/*--- EndOfFile ---*/
