@@ -48,7 +48,7 @@ if (preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i
 						echo "This will be you profile picture!<p><img border='1' width='50' height='50' src='profiles/$name/images/$mypic'><p>";
 						$passwordmd5 = md5($password);
 						mysql_query("INSERT INTO users(name,email,password) VALUES('$name','$email','$passwordmd5')");
-						echo "You have succefully registered!<a href='home.php'>Login now!</a>";
+						echo "You have succefully registered!<a href='index.html'>Login now!</a>";
 					
 					} else {
 					
