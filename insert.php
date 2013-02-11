@@ -51,7 +51,6 @@ if (preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i
 						echo "You have succefully registered!<a href='index.html'>Login now!</a>";
 					
 					} else {
-					
 						echo "Please load a valid jpeg, jpg or bmp! And size must be less than 10k!";
 					
 					}
