@@ -30,7 +30,3 @@
 	<!-- load header image including login image -->
 	<span id="lower-header"></span>	
 </form>
-
-</div>
-
-</html>

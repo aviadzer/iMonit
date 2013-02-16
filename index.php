@@ -15,8 +15,7 @@
 <div id="page">
 
 <?php
-
-include("header.php");
+include("controller/home_controller.php");
 ?>
 
 <!-- Login form -->

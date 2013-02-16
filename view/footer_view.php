@@ -1,21 +1,17 @@
 
-
-<!--- Closing the "Content" Div -->
-</div>
-
 <!-- footter links -->
 <div class="centerfooter">
 	<!---div id="main" class="footer"-->
-		<a href="index.html">Main</a>&nbsp&nbsp
+		<a href="../index.html">Main</a>&nbsp&nbsp
 	<!---/div-->
 	<!---div id="overview" class="footer"-->
 		<a href="overview.html">Overview</a>&nbsp&nbsp
 	<!---/div-->
 	<!---div id="register" class="footer"-->
-		<a href="register.html">JoinUs</a>&nbsp&nbsp
+		<a href="register_form.html">JoinUs</a>&nbsp&nbsp
 	<!---/div-->
 	<!---div id="login" class="footer"-->
-		<a href="login.html">Login</a>&nbsp&nbsp
+		<a href="../index.html">Login</a>&nbsp&nbsp
 	<!---/div-->
 	<!---div id="settings" class="footer"-->
 		<a href="settings.html">Settings</a>&nbsp&nbsp
