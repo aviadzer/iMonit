@@ -10,6 +10,9 @@
 	color           : #000000;
 	padding         :   1.50pt;
 	}
+	
+
+
 .footer               { /* Common */
 	font            : /*italic*/bold 12pt 'Times New Roman', Book, Georgia, serif;
 	color           : #000000;
@@ -62,45 +65,49 @@ input#remember            { /* Check Box check_box oncl... */
 	}
 
 	
-div#page            { /* Page Holder */
+div.content            { /* Page Holder */
 	background-color: Gray;
 	position        : relative;
 	width           : 573.75pt;
-	height          : 573.75pt;
+	height          : 450pt;
+	top				: 140px;
 	text-align      : left;
 	margin-left     : auto;
 	margin-right    : auto;
+	opacity			: 0.8;
 	}
 body                { /* Page Body */
-	background-color: #181818  ;
+	background      :  url('../img/Drivers_Screen.jpg') no-repeat fixed center;
+	background-size	:	100% 100%;
+	/*background-color: #181818  ;*/
 	text-align      : center;
 	}
 
 	/* Images setting */
 	
 /* Header with login form */
-span#upper-header            { /* header.png */
-	background      : transparent url(header.png) no-repeat top left;
+div.upper-header            { /* header.png */
+	background      : transparent url(../img/header.png) no-repeat top center;
 	position        : absolute;
 	left            :   0.00pt;
 	top             :   0.00pt;
-	width           : 573.75pt;
+	width           : 100%; /*573.75pt;*/
 	height          : 564.00pt;
 	}
 	
 	
 span#lower-header            { /* header.png */
-	background      : transparent url(header.png) no-repeat top left;
+	background      : transparent url(../img/header.png) no-repeat top center;
 	position        : absolute;
 	left            : 0.00pt;
 	top          	: 540.00pt;
-	width           : 573.75pt;
+	width           : 100%; /*573.75pt;*/
 	height          : 564.00pt;
 	}
 	
 /* Header with out login form */
 span#headerwithoutlogin            { /* headerwithoutlogin.png */
-	background      : transparent url(headerwithoutlogin.png) no-repeat top left;
+	background      : transparent url(../img/headerwithoutlogin.png) no-repeat top left;
 	position        : absolute;
 	left            :   0.00pt;
 	top             :   15.00pt;
@@ -109,19 +116,19 @@ span#headerwithoutlogin            { /* headerwithoutlogin.png */
 }	
 
 /* Header with out login form */
-span#logo            { /* headerwithoutlogin.png */
-	background      : transparent url(imonit.png) no-repeat top left;
+span.logo            { /* headerwithoutlogin.png */
+	background      : transparent url(../img/imonit.png) no-repeat top center;
 	position        : absolute;
 	left            :   0.00pt;
 	top             :   28.00pt;
-	width           : 573.75pt;
+	width           : 100%; /*573.75pt;*/
 	height          : 564.00pt;
 	}	
 	
 
 /* Body image - can be replaced by other image */
 span#bodyimage            { /* main2.png */
-	background      : transparent url(main2.png) no-repeat center;
+	background      : transparent url(../img/main2.png) no-repeat center;
 	position        : absolute;
 	left            : 10.00pt;
 	top             : 120.00pt;
@@ -130,7 +137,7 @@ span#bodyimage            { /* main2.png */
 	}	
 
 span#joinus            { /* main2.png */
-	background      : transparent url(joinus.png) no-repeat center;
+	background      : transparent url(../img/joinus.png) no-repeat center;
 	position        : absolute;
 	left            : 20.00pt;
 	top             : 120.00pt;
@@ -155,46 +162,55 @@ div#centered             { /* Main page / Index */
 
 /*** Footer settings ***/
 
-div#main             { /* Main page / Index */
+div.centerfooter		{/*all footer is inside a DIV */
 	position        : absolute;
-	left            : 60.00pt;
-	top             : 520.75pt;
+	left            : 40%;
+	top             : 500pt;
+	margin-left		: auto;
+	margin-right 	: auto;
+	text-align		: left;
+	}
+	
+div#main             { /* Main page / Index */
+	position        : relative;
+	/*left            : 60.00pt;
+	top             : 520.75pt; */
 	width           :  57.75pt;
 	height          :  23.25pt;
 	}
 	
 div#overview              { /* OverView */
-	position        : absolute;
+	position        : relative;
 	left            : 120.75pt;
-	top             : 520.75pt;
+	/*top             : 520.75pt;*/
 	width           :  78.00pt;
 	height          :  23.25pt;
 	}
 div#register             { /* JoinUs/Register */
-	position        : absolute;
+	position        : relative;
 	left            : 220.00pt;
-	top             : 520.75pt;
+	/*top             : 520.75pt;*/
 	width           :  57.75pt;
 	height          :  23.25pt;
 	}
 div#login              { /* Login */
-	position        : absolute;
+	position        : relative;
 	left            :  300.25pt;
-	top             : 520.75pt;
+	/*top             : 520.75pt;*/
 	width           :  49.50pt;
 	height          :  23.25pt;
 	}
 div#settings              { /* Settings */
-	position        : absolute;
+	position        : relative;
 	left            : 370.25pt;
-	top             : 520.75pt;
+	/*top             : 520.75pt;*/
 	width           :  63.00pt;
 	height          :  23.25pt;
 	}
 div#contact              { /* ContactUs */
-	position        : absolute;
+	position        : relative;
 	left            : 450.00pt;
-	top             : 520.75pt;
+	/*top             : 520.75pt;*/
 	width           :  85.50pt;
 	height          :  23.25pt;
 	}

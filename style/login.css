@@ -1,6 +1,6 @@
 /* Settings Backgrounnd */
 span#loginimage         { /* settingsbackground.png */
-	background      : transparent url(login.png) no-repeat center;
+	background      : transparent url(../img/login.png) no-repeat center;
 	position        : absolute;
 	left            : 90.00pt;
 	top             : 100.00pt;
