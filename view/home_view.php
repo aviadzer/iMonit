@@ -1,10 +1,6 @@
 <?php
 
-session_start(); // start the session
-
-// include some stuff....
-include('db.inc.php');	// database connection
-include('user.php');		// user class definition
+require_once('../lib/main.php');
 
 // initialize some variables....
 $error_messages=array();
