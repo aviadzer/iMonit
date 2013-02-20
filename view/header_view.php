@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="../style/index.css" type="text/css" media="screen,projection,print" />	<!--// Page Style //-->
 	<link rel="stylesheet" href="../style/login.css" type="text/css" media="screen,projection,print" />	<!--// Page Style //-->
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.css" />      
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script> 
 </head>
 
 
